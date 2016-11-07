@@ -1,0 +1,13 @@
+{
+    "name": "redis workshop",
+    "license": "mit",
+    "type": "project",
+    "description": "Wanup redis workshop",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+	"php": ">=7.0",
+	"predis/predis": "1.1.*"
+    }
+}

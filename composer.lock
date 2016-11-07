@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "978ec9e6dc1e3206e543d3458a60853e",
-    "content-hash": "1ba9192078af9d91ec7dafc25f9b4e1d",
+    "hash": "bcf47958f1f8877c6331aef89d464331",
+    "content-hash": "84e824f65e1918b109f8c9cdad5057bf",
     "packages": [
         {
             "name": "predis/predis",
@@ -56,6 +56,61 @@
                 "redis"
             ],
             "time": "2016-06-16 16:22:20"
+        },
+        {
+            "name": "ucsdmath/testing",
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ucsdmath/Testing.git",
+                "reference": "e151e4520f2a2c9147d7f73274df013c047a5272"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ucsdmath/Testing/zipball/e151e4520f2a2c9147d7f73274df013c047a5272",
+                "reference": "e151e4520f2a2c9147d7f73274df013c047a5272",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "1.6.0",
+                "mockery/mockery": "0.9.5",
+                "phpunit/phpunit": "5.6.1",
+                "squizlabs/php_codesniffer": "2.7.0",
+                "ucsdmath/date": "1.10.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UCSDMath\\Testing\\": "src/Testing/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daryl Eisner",
+                    "email": "deisner@ucsd.edu"
+                }
+            ],
+            "description": "Some PHP testing routines.",
+            "homepage": "https://github.com/ucsdmath",
+            "keywords": [
+                "benchmark",
+                "component",
+                "testing",
+                "ucsdmath"
+            ],
+            "time": "2016-10-20 00:00:00"
         }
     ],
     "packages-dev": [],

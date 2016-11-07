@@ -8,6 +8,7 @@
     },
     "require": {
 	"php": ">=7.0",
-	"predis/predis": "1.1.*"
+	"predis/predis": "1.1.*",
+        "ucsdmath/testing": "^1.10"
     }
 }

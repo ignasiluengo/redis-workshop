@@ -28,7 +28,7 @@ foreach (range(1, $limit) as $i) {
 echo $benchmark->stop();
 $client->flushdb();
 
-//EXAMPLE 3
+//EXAMPLE 3 same operations with pipeline
 $benchmark->start();
 foreach (range(1, $limit) as $i) {
     $client->pipeline(function($pipe) use ($i) {

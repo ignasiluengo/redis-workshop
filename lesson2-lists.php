@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Queremos una lista de usuarios que han visitado el hotel_mikado, esa lista
+ * no debe de pasar de 50 máximo y de 10 usuarios para mostrar en la web
+ */
+
 define('LIST_LIMIT', 50);
 define('LIST_LIMIT_WEB', 10);
 

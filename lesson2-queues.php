@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * Queremos crear una cola de prioridad donde debemos procesar las tareas de los eventos
+ * por ese mismo orden.
+ * metemos dos mensajes de prioridad alta, una de prioridad media y otro de prioridad baja.
+ */
 require_once __DIR__ . '/connection.php';
 
 
